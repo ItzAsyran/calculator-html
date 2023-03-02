@@ -1,0 +1,63 @@
+body {
+   background-image: url('https://media.tenor.com/ATdUkAGUgp8AAAAC/jackass-3d.gif');
+   background-size: cover;
+   background-repeat: repeat;
+   background-position: center center;
+    color: rgb(255, 255, 255);
+    font-family: SF Pro Display;
+}
+.box {
+    width: 300px;
+    margin: 0 auto;
+    padding: 2%;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: rgba(54, 54, 54, 0.849);
+    backdrop-filter: blur(10px);
+  }
+  
+  .title {
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    
+  }
+  
+  .box input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+  }
+  
+  .box label {
+    font-size: 18px;
+  }
+
+  .box input[type="text"]::placeholder {
+    color: black;
+  }
+
+  .box .button {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
